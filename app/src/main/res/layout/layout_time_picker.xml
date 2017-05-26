@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal">
+
+    <com.runtai.wheelviewmasterlibrary.WheelView
+        android:id="@+id/time_day"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:itemNumber="3"
+        app:lineColor="@color/colorAccent"
+        app:lineHeight="1.5dp"
+        app:noEmpty="true"
+        app:normalTextColor="#777"
+        app:normalTextSize="22sp"
+        app:selectedTextColor="#ff000000"
+        app:selectedTextSize="22sp"
+        app:unitHeight="50dp" />
+
+    <com.runtai.wheelviewmasterlibrary.WheelView
+        android:id="@+id/time_hour"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:itemNumber="3"
+        app:lineColor="@color/colorAccent"
+        app:lineHeight="1.5dp"
+        app:noEmpty="true"
+        app:normalTextColor="#777"
+        app:normalTextSize="22sp"
+        app:selectedTextColor="#ff000000"
+        app:selectedTextSize="22sp"
+        app:unitHeight="50dp" />
+</LinearLayout>
